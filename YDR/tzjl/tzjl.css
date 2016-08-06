@@ -1,0 +1,291 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  margin:0px;
+  position:static;
+  left:auto;
+  width:1381px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+  background: #f5f5f5;
+}
+a{
+  text-decoration:none;
+  color:black;
+  font-weight: 100;
+}
+p{
+	font-family:'Arial Normal', 'Arial';
+	text-align:center;
+}
+.nav{
+    width:1370px;  
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border:solid 1px #ccc;
+    font-size: 20px;
+    color:black;
+    background: #ffffff;
+}
+.logo{
+	margin-right: 120px;
+    margin-left: 60px;
+    float:left;
+}
+.home-logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px; 
+	width:100px;
+	height:50px;
+	background-image:url(images/logo.png);
+	background-size:contain; 
+}
+.nav-bar{
+	margin-top:40px;
+	margin-right: 270px;
+	float:left;
+}
+.nav-bar ul li{
+    float:left;
+    font-size: 24px;
+    list-style: none;
+    margin-left: 60px;
+}
+.login{
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.md{
+  width: 1092px;
+  height: 350px;
+  padding-left: 3px;
+  padding-top: 1px;
+  margin:50px auto;   /*margin的实际效果只有10px；其兄弟元素并未设置margin-bottom 不构成外边距坍塌*/
+  background: #fff;
+  padding: 5px;
+  border:solid 1px #ccc;
+}
+#pic{
+  display: block;
+  width: 558px;
+  height: 341px;
+  float: left;
+}
+#text{
+  background: #fff;
+  width: 450px;
+  height: 330px;
+  padding-left: 35px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+#text h5{
+  font-size: 24px;
+  color: #7D6666;
+}
+#text h6{
+  font-size: 16px;
+}
+#blank{
+  width: 450px;
+  height: 45px;
+}
+#bfb{
+  height: 110px;
+  width: 110px;
+  float: left;
+  background: blue;
+}
+#bfb img{
+  height: 110px;
+  width: 110px;
+}
+#list{
+ padding-left: 30px;
+ padding-top: 0px;   /* 在盒子有固定宽高的情况下 padding为负值时无效 padding为正值时撑大盒子*/
+  width: 230px;
+  height: 120px;
+  overflow: hidden;
+
+}
+#list ul li{
+  font-size: 16px;
+  margin-top: 20px;
+  list-style: none;
+}
+#text button{
+  width: 270px;
+  height: 45px;
+  margin-top: 50px;
+  background: #FF8E09;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 16px;
+  border:none;
+}
+#title{
+  width: 1058px;
+  height: 50px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 30px;
+  border:solid 1px #ccc;
+  padding-left: 30px;
+}
+#title ul li{
+  float: left;
+  margin-right: 50px;
+  list-style: none;
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+}
+#xm{
+  width: 1088px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 800px;
+  padding: 0px;
+}
+#jl{
+  width: 770px;
+  height: 785px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+#jl h5{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: normal;
+
+}
+.box{
+  width: 630px;
+  height: 65px;
+  padding-top: 20px;
+  margin-left: 70px;
+  overflow: hidden;
+  font-size: 16px;
+  border-bottom: 1px dotted #ccc;
+}
+.box img{
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+#id{
+  margin-right: 95px;
+  margin-left: 10px;
+}
+#num{
+  margin-right: 90px;
+}
+#wz {
+  height: 55px;
+}
+#wz span{
+  line-height: 55px;
+}
+#pag{
+  margin-top:45px;
+  margin-left: 220px;
+}
+#pag span{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  border:1px solid #3D3D3D;
+}
+#last{
+  width: 65px;
+  border:1px solid #3D3D3D;
+  height: 25px;
+  margin-left: 10px;
+  display: inline-block;
+}
+#xx{
+  width: 290px;
+  overflow: hidden;
+  padding-left:25px; 
+  height: 800px;
+}
+#xh{
+  width: 288px;
+  height: 390px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+#xh img{
+  width: 250px;
+  height: 95px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+#xh h6,#jd h6{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#xh p{
+  font-size: 12px;
+  text-indent: 2em;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+#jd{
+  width: 288px;
+  height: 260px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-top: 10px;
+}
+#bfb-s{
+  height: 85px;
+  width: 85px;
+  float: left;
+  margin-top: 40px;
+}
+#bfb-s img{
+  height: 85px;
+  width: 85px;
+}
+#list-s{
+  padding-left: 25px;
+  padding-top: 0px;   /* 在盒子有固定宽高的情况下 padding为负值时无效 padding为正值时撑大盒子*/
+  width: 150px;
+  height: 120px;
+  overflow: hidden;
+
+}
+#list-s ul li{
+  font-size: 16px;
+  margin-top: 20px;
+  list-style: none;
+}
+#jd button{
+  width: 200px;
+  height: 45px;
+  margin-left:30px;  /*margin-left不起作用 */
+  margin-top: 20px;
+  background: #FF8E09;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 16px;
+  border:none;
+}
