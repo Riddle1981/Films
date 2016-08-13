@@ -1,6 +1,6 @@
 *{
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   margin:0px;
@@ -18,8 +18,8 @@ a{
   font-weight: 100;
 }
 p{
-	font-family:'Arial Normal', 'Arial';
-	text-align:center;
+  font-family:'Arial Normal', 'Arial';
+  text-align:center;
 }
 .nav{
     width:1370px;  
@@ -32,23 +32,23 @@ p{
     background: #ffffff;
 }
 .logo{
-	margin-right: 120px;
+  margin-right: 120px;
     margin-left: 60px;
     float:left;
 }
 .home-logo{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 20px; 
-	width:100px;
-	height:50px;
-	background-image:url(images/logo.png);
-	background-size:contain; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px; 
+  width:100px;
+  height:50px;
+  background-image:url(images/logo.png);
+  background-size:contain; 
 }
 .nav-bar{
-	margin-top:40px;
-	margin-right: 270px;
-	float:left;
+  margin-top:40px;
+  margin-right: 270px;
+  float:left;
 }
 .nav-bar ul li{
     float:left;
@@ -57,8 +57,8 @@ p{
     margin-left: 60px;
 }
 .login{
-	margin-top: 40px;
-	margin-left: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
 }
 .md{
   width: 1092px;
@@ -156,7 +156,7 @@ p{
 }
 #jl{
   width: 770px;
-  height: 785px;
+  height: 1285px;
   float: left;
   background: #fff;
   border: 1px solid #ccc;
@@ -168,19 +168,73 @@ p{
   font-weight: normal;
 
 }
-.box{
-  width: 630px;
-  height: 65px;
-  padding-top: 20px;
-  margin-left: 70px;
-  overflow: hidden;
+#jl h6{
   font-size: 16px;
+  font-weight: normal;
+  margin-left: 38px;
+}
+#t1{
+  width: 710px;
+  height: 230px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#t2{
+  width: 710px;
+  height: 330px;
+  margin: 0 auto;
+  margin-top:20px;
+  font-size: 20px;
+}
+#t1 td,#t2 td{
+  text-indent: 1em;
+}
+#xmld{
+  margin-top: 35px;
+  text-align: left;
+}
+#box{
+  padding-left:20px; 
+}
+.box{
+  width: 220px;
+  height: 85px;
+  padding-top: 30px;
+  margin-right: 40px;
+  font-size: 14px;
+  float: left;
   border-bottom: 1px dotted #ccc;
 }
+.box h5{
+  font-size: 18px;
+}
 .box img{
-  width: 55px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
   float: left;
+}
+#blast{
+  margin-right: 0px;
+}
+/*#clear{
+  width: 500px;
+  height: 35px;
+  background: red;
+}*/
+#jqjs{
+  
+  margin-top: 35px;
+  display: inline-block;
+  width: 680px;
+  height: 155px;
+}
+#jqjs p{
+  text-align: left;
+}
+#js{
+  margin-top: 25px;
+  padding-left: 25px;
 }
 #id{
   margin-right: 95px;
