@@ -156,7 +156,7 @@ p{
 }
 #jl{
   width: 770px;
-  height: 2605px;
+  height: 820px;
   float: left;
   background: #fff;
   border: 1px solid #ccc;
@@ -165,6 +165,7 @@ p{
   font-size: 20px;
   margin-left: 30px;
   margin-top: 10px;
+  margin-bottom: 35px;
   font-weight: normal;
 
 }
@@ -175,119 +176,36 @@ p{
   color: #808080;
   margin-top: 5px;
 }
-#t1{
-  width: 710px;
-  height: 230px;
-  margin: 0 auto;
-  margin-top: 50px;
-  font-size: 20px;
+#zb{
+  margin-left: 108px;
+  margin-bottom: 0px;
 }
-#t2{
-  width: 710px;
-  height: 330px;
-  margin: 0 auto;
-  margin-top:20px;
-  font-size: 20px;
+.fbox{
+  margin-top: -10px;
 }
-#t1 td,#t2 td{
-  text-indent: 1em;
-  color: #a9a9a9;
-}
-#xmld{
-  margin-top: 35px;
-  text-align: left;
-}
-#box{
-  padding-left:20px; 
+.fbox span{
+  float: left;
+  margin-left: 30px;
 }
 .box{
-  width: 220px;
-  height: 85px;
-  padding-top: 30px;
-  margin-right: 40px;
+  width: 700px;
+  height: 203px;
   font-size: 14px;
-  float: left;
-  border-bottom: 1px dotted #ccc;
 }
-.box h5{
-  font-size: 18px;
-}
-.box img{
-  width: 85px;
-  height: 85px;
-  float: left;
-}
-#blast{
-  margin-right: 0px;
-}
-/*#clear{
-  width: 500px;
-  height: 35px;
-  background: red;
-}*/
-#jqjs{
-  
-  margin-top: 35px;
-  display: inline-block;
-  width: 680px;
-  height: 155px;
-}
-#jqjs p{
+.box p{
   text-align: left;
 }
-#js{
-  margin-top: 25px;
-  padding-left: 25px;
+.box img{
+  width: 120px;
+  height: 75px;
+  margin-right: 8px;
+  margin-top: 10px;
 }
-#id{
-  margin-right: 95px;
-  margin-left: 10px;
-}
-#num{
-  margin-right: 90px;
-}
-#wz {
-  height: 55px;
-}
-#wz span{
-  line-height: 55px;
-}
-#pag{
-  margin-top:45px;
-  margin-left: 220px;
-}
-#pag span{
-  width: 25px;
-  height: 25px;
-  display: inline-block;
+#jdt{
   float: left;
-  margin-left: 10px;
-  border:1px solid #3D3D3D;
-}
-#last{
-  width: 65px;
-  border:1px solid #3D3D3D;
-  height: 25px;
-  margin-left: 10px;
-  display: inline-block;
-}
-#zsy{
-  
-  height: 145px;
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 35px;
-}
-#zsy img{
-   float: left;
-   width: 170px;
-   height: 145px;
-}
-#zsy p{
-  font-size: 20px;
-}
-#zsy span{
-  font-size: 14px;
+  background-image: url(images/jdt.png);
+  width: 31px;
+  height: 203px;
 }
 .xx{
   height: 320px;
